@@ -55,10 +55,10 @@ struct musbfsh_ep;
 #define MUSBFSH_HWVERS_1900	0x784
 #define MUSBFSH_HWVERS_2000	0x800
 
-#include "musbfsh.h"
-#include "musbfsh_io.h"
-#include "musbfsh_regs.h"
-#include "musbfsh_debug.h"
+#include "../musbfsh.h"
+#include "../musbfsh_io.h"
+#include "../musbfsh_regs.h"
+#include "../musbfsh_debug.h"
 
 #include <linux/switch.h>
 #include <linux/i2c.h>

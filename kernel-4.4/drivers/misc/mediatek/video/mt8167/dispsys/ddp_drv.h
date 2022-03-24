@@ -450,7 +450,7 @@ extern void disp_m4u_tf_disable(void);
 /* TODO: FIXME */
 #include <linux/types.h>
 
-#include "disp_drv_platform.h"
+#include "../videox/disp_drv_platform.h"
 #include "ddp_dpi_reg.h"
 extern struct DPI_REGS *DPI_REG[2];
 /*extern unsigned long DPI_TVDPLL_CON0;*/

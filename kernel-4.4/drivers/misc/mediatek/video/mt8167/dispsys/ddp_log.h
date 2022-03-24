@@ -18,7 +18,7 @@
 
 #include "display_recorder.h"
 #include "ddp_debug.h"
-#include "disp_drv_platform.h"
+#include "../videox/disp_drv_platform.h"
 #ifndef LOG_TAG
 #define LOG_TAG
 #endif
